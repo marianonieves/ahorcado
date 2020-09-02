@@ -1,6 +1,10 @@
 require 'sinatra'
+require './lib/ahorcado'
 require './config'
 
+
 get '/' do
-    'hola mundo'
+    ahorcado = Ahorcado.new
+    ahorcado.hello
+
 end
