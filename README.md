@@ -24,3 +24,27 @@ for unit test:
 
 for acceptance test:
 	cucumber
+
+## DOCKER COMMANDS
+```bash
+docker-compose run --service-ports csd bash
+```
+
+## RSPEC COMMANDS
+```bash
+respec
+```
+
+## CUCUMBER COMMANDS
+```bash
+cucumber
+```
+
+## GIT COMMANDS
+[Github Mariano Nieves](https://github.com/marianonieves/kbot) 
+
+```bash
+git status
+git commit -a -m "default messsage"
+git push
+```
