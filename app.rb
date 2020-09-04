@@ -5,6 +5,5 @@ require './config'
 
 get '/' do
     ahorcado = Ahorcado.new
-    ahorcado.hello
-
+    erb :index
 end
