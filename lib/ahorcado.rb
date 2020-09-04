@@ -4,7 +4,7 @@ class Ahorcado
         "Hello World"
     end
 
-    def arriesgar(letra)
-        true
+    def arriesgar( letra )
+        return "SANDIA".include?( letra )
     end
 end

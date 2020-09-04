@@ -7,3 +7,7 @@ Feature: Inicio de la aplicación
     Scenario: Ingresa letra pertenece
     When arriesga "A" en "valor"
     Then muestra "correcto"
+
+    Scenario: Ingresa letra verificar que NO pertenece
+    When arriesga "Z" en "valor"
+    Then muestra "incorrecto"

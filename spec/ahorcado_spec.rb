@@ -10,4 +10,8 @@ describe Ahorcado do
     it "Validar arriesgar" do
         expect( ahorcado.arriesgar('A')).to match true
     end
+
+    it "Ingresa letra verificar que NO pertenece" do
+        expect( ahorcado.arriesgar('Z')).to match false
+    end    
 end

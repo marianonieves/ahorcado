@@ -11,6 +11,8 @@ post '/' do
     ahorcado = Ahorcado.new
     if (ahorcado.arriesgar(params[:valor]) == true)
         #ahorcado.arriesgar(params[:valor])
-        "correcto"   
+        "correcto"
+    else
+        "incorrecto"
     end 
 end
