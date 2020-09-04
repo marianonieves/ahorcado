@@ -2,6 +2,7 @@ require './lib/ahorcado'
 
 describe Ahorcado do
 
+
     ahorcado = Ahorcado.new()
 
     it "Validar HelloWorld" do

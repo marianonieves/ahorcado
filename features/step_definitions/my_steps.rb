@@ -6,6 +6,13 @@ When("inicio la aplicación") do
 end
   
 Then("muestra {string}") do |cadena|
-#    pending # Buscar "Bienvenido a AHORCADO" en el HTML generado por app
     expect(page.body).to match /#{cadena}/m
 end
+  
+  When("arriesga {string} en {string}") do |letra,campoId|
+    visit "/"
+    fill_in(campoId, :with => letra)
+    click_button "Arriesgar"
+  end
+
+  

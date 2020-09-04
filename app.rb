@@ -7,3 +7,7 @@ get '/' do
     ahorcado = Ahorcado.new
     erb :index
 end
+
+post '/' do
+    return "correcto"
+end
